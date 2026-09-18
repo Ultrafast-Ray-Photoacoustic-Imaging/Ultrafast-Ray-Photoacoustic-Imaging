@@ -19,4 +19,4 @@ class Sinusoidal(nn.Module):
         super().__init__()
         
     def forward(self, x):
-        return torch.sin(x)  # 频率可调：sin(ωx)
+        return torch.sin(x)
