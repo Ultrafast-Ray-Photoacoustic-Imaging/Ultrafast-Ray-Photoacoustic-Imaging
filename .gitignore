@@ -1,0 +1,8 @@
+__pycache__/
+*.ipynb_checkpoints/
+
+*.ckpt
+
+!pinn_pat_forward_example.ckpt
+!pinn_pat_A_recon_example.ckpt
+!pinn_pat_gs_init.ckpt
