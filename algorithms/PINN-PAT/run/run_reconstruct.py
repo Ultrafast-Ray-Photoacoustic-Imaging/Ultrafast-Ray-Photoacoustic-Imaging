@@ -37,6 +37,8 @@ if __name__ == "__main__":
     load_filepath = r"../ckpt/gaussian/pinn_pat_gs_init.ckpt"
     sensor_filepath = f"../sensor/vessel/{medium_token}_300_700_40dB.pts"
     p0_filepath = None
+
+    # The line below activates time-reversal pretraining
     # p0_filepath = r"../time_reversal/tr_vessel.pts"
 
     arg = Arg(

@@ -38,12 +38,6 @@ class Arg:
 
         num_iteration: int=None,
 
-        # num_loss_term: int=None,
-        # loss_downsample_scale: int=None,
-
-        # ckpt_filedir: str=None,
-        # sensor_filedir: str=None,
-
         save_filepath: str=None,
         load_filepath: str=None,
         sensor_filepath: str=None,
